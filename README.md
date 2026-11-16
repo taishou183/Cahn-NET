@@ -149,15 +149,7 @@ python model/cahnet/cahnet.py
 
 ---
 
-## 8. 复现说明
-
-- 随机种子固定为 1949，并设置 `torch.backends.cudnn.deterministic=True`（`train.py`），以降低训练随机性；
-- 训练轮数、学习率、裁剪尺寸见第 4 节；不同数据集的初始学习率在论文中有说明；
-- 硬件不同会导致耗时与显存占用不同，指标应在相同测试划分下比较。
-
----
-
-## 9. 引用
+## 8. 引用
 
 ```bibtex
 @article{cahnnet2026,
